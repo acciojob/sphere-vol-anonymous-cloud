@@ -9,7 +9,7 @@ function volume_sphere() {
 		 const r = parseFloat(radius.value); 
 	const pi = Math.PI;
             const sphereVolume = (4 / 3) * pi * Math.pow(r, 3);
-            volume.value = `Volume: ${sphereVolume.toFixed(2)}`;
+            volume.value = sphereVolume.toFixed(2);
 		
 	})
 } 
